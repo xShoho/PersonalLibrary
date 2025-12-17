@@ -1,4 +1,3 @@
-using System;
 using Microsoft.EntityFrameworkCore;
 using PersonalLibrary.Core.Entities;
 
@@ -12,7 +11,7 @@ public class LibraryDbContext : DbContext
     {
         var folder = Environment.SpecialFolder.LocalApplicationData;
         var path = Environment.GetFolderPath(folder);
-        DbPath = System.IO.Path.Join(path, "PersonalLibrary.db");
+        DbPath = Path.Join(path, "PersonalLibrary.db");
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite($"Data Source={DbPath}");
