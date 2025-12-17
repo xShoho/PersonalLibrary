@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PersonalLibrary.Api/PersonalLibrary.Api.csproj" />
+    <Project Path="src/PersonalLibrary.Application/PersonalLibrary.Application.csproj" />
+    <Project Path="src/PersonalLibrary.Core/PersonalLibrary.Core.csproj" />
+    <Project Path="src/PersonalLibrary.Infrastructure/PersonalLibrary.Infrastructure.csproj" />
+  </Folder>
+</Solution>
