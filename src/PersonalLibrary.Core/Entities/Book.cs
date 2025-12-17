@@ -9,7 +9,7 @@ public class Book
     public string? ISBN { get; set; }
     public int? PublishedYear { get; set; }
     public int? PageCount { get; set; }
-    public Genre Genre { set; get; }
+    public Genre Genre { get; set; }
     public ReadingStatus ReadingStatus { get; set; }
     public DateTime DateAdded { get; set; }
     public DateTime? DateFinished { get; set; }
