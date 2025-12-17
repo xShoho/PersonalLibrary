@@ -1,3 +1,5 @@
+using PersonalLibrary.Core.Enums;
+
 namespace PersonalLibrary.Core.Entities;
 
 public class Book
